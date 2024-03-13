@@ -3,6 +3,7 @@ import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { enviromentsComponent } from './src/concepts/01-enviroments';
 import { callbacksComponent } from './src/concepts/02-callbacks';
+import { promiseComponent } from './src/concepts/03-promises';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -21,6 +22,7 @@ document.querySelector('#app').innerHTML = `
 `;
 const element = document.querySelector('.card');
 
-//enviromentsComponent(element);
-callbacksComponent(element);
+// enviromentsComponent(element);
+// callbacksComponent(element);
+promiseComponent(element);
 
